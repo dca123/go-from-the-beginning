@@ -1,0 +1,13 @@
+2024/05/24 05:21:28 Starting program
+2024/05/24 05:21:28 cant divide by 0 goroutine 1 [running]:
+runtime/debug.Stack()
+	/usr/local/go/src/runtime/debug/stack.go:24 +0x64
+main.errorHandler()
+	/Users/devinda/Projects/go/go-from-the-beginning/handling-errors/main.go:20 +0x34
+panic({0x100fb7cc0?, 0x100fcccc8?})
+	/usr/local/go/src/runtime/panic.go:770 +0x124
+main.Divide(0x140001000c0?, 0x0?)
+	/Users/devinda/Projects/go/go-from-the-beginning/handling-errors/main.go:13 +0x7c
+main.main()
+	/Users/devinda/Projects/go/go-from-the-beginning/handling-errors/main.go:32 +0x11c
+
